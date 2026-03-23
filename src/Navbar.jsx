@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
-import './Navbar.css'; // Puedes crear este archivo con los estilos
+import './Navbar.css';
 
 const Navbar = () => {
   const cartItems = useSelector((state) => state.cart.items);

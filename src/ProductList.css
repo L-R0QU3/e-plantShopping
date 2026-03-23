@@ -15,7 +15,6 @@ body {
     background-color: #4CAF50;
     color: #fff!important;
     padding: 15px;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 20px;
@@ -36,7 +35,6 @@ body {
     color: white;
     font-size: 30px;
     text-decoration: none;
-   
 }
 
 /* Product Grid */
@@ -62,7 +60,6 @@ body {
 /* Product Card */
 .product-card {
     flex: 0 0 calc(33.33% - 20px); /* Adjust width for 3 cards per row with 20px gap */
-    max-width: calc(26.33% - 20px); /* Adjust max-width for 3 cards per row with 20px gap */
     margin-bottom: 20px;
     padding: 20px;
     background-color: #fff;
@@ -251,7 +248,7 @@ body {
       }
   }
 
-  .product-list-page {
+.product-list-page {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
@@ -322,6 +319,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   width: 100%;
+  transition: background-color 0.3s;
 }
 
 .add-to-cart-btn:hover:not(:disabled) {
